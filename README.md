@@ -13,7 +13,7 @@ Useful for double checking when migrating a large amount of storage files betwee
 
 # Usage
 > AwsBucket-AzureContainer-FileComparer.exe "bucket-name" "container-name" "storageaccount-name"  "storageaccount-key"
-> AwsBucket-AzureContainer-FileComparer.exe "bucket-name/directory" "storageaccount-name" "storageaccount-key"
+> AwsBucket-AzureContainer-FileComparer.exe "bucket-name/directory" "container-name" "storageaccount-name" "storageaccount-key"
 
 # TODO
 * Add byte or MD5 checksum comparison to enhance comparison reliability
