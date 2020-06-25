@@ -1,5 +1,5 @@
 # Intro
-Command line tool for file quantity commparison between AWS S3 Bucket and an Azure Storage Container.
+Command line tool for file quantity comparison between AWS S3 Bucket and an Azure Storage Container.
 
 AWS Code contributed by https://github.com/AlisonFgt
 
@@ -8,7 +8,7 @@ Useful for double checking when migrating a large amount of storage files betwee
 
 # Requirements / Build
 * .NET Core 3.1 SDK
-* AWS credentials at /users/<user>/.aws/
+* AWS credentials at /users/user/.aws/
 * dotnet restore
 * dotnet build
 
