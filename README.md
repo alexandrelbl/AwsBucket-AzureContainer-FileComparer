@@ -1,5 +1,6 @@
 # Intro
 Command line tool for file quantity commparison between AWS S3 Bucket and an Azure Storage Container.
+
 AWS Code contributed by https://github.com/AlisonFgt
 
 # Case
@@ -13,6 +14,7 @@ Useful for double checking when migrating a large amount of storage files betwee
 
 # Usage
 > AwsBucket-AzureContainer-FileComparer.exe "bucket-name" "container-name" "storageaccount-name"  "storageaccount-key"
+
 > AwsBucket-AzureContainer-FileComparer.exe "bucket-name/directory" "container-name" "storageaccount-name" "storageaccount-key"
 
 # TODO
